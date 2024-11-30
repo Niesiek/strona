@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edytuj Asset</title>
+    <link rel="stylesheet" href="CSS/theme.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+      <!-- ----------------------------------------------------------------------------------------------------------- -->
+      <div id="srodek">
+      <h2>Edytuj Asset</h2>
+      <form id="editForm">
+          <label for="producent">Producent:</label>
+          <input type="text" id="producent" name="producent" required>
+          <br><br>
+          <label for="name">Nazwa:</label>
+          <input type="text" id="name" name="name" required>
+          <br><br>
+          <label for="description">Opis:</label>
+          <input type="text" id="description" name="description" required></input>
+          <br><br>
+          <button type="submit">Zapisz</button>
+      </form>
+      </div>
+      <div id="message"></div>
+    <script src="JavaScript/edit.js"></script>
+    <script src="JavaScript/Motyw.js"></script>
+</body>
+</html>

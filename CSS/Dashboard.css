@@ -1,0 +1,72 @@
+.logo{
+    width: 150px;
+    height: 100px; 
+    object-fit: cover;
+    margin: -5px 0px -30px -20px;
+   }
+
+.topka{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 100%;
+}
+/* .konto {
+    height: 50px;
+    width: 50px;
+    margin: 23px 0px -30px 230px;
+    
+    
+}
+
+#asset {
+    border: 1px transparent;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.buttons {
+    margin-top: 10px;
+}
+
+.topka h2 {
+    margin: 5px 0px -30px 230px;
+}
+
+.topka a img {
+    margin: 5px 0px -24px 50px;
+    width: 100px;
+    height: 70px; 
+}
+
+.topka a img p {
+    margin: 5px 0px -24px 50px;
+}
+
+:root {
+    --akolor: #36ac71;
+    --poswiata-kolor: rgba(255, 255, 255, 1.0);
+    --secondary-color: #8894b3;
+    --heading-color: #2a2a23;
+
+
+}
+
+html[data-theme="dark"]{
+    --akolor: #36ac71;
+    --poswiata-kolor: rgba(255, 255, 255, 1.0);
+    --secondary-color: #8894b3;
+    --heading-color: #2a2a23;
+
+}
+
+
+a p:hover {
+    color: var(--main-color);
+    color: var(--font-color);
+    color: var(--poswiata-kolor);
+}
+#assetsContainer{
+    width: 50%;
+    border: 1px transparent;
+} */

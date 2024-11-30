@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+      <!-- ----------------------------------------------------------------------------------------------------------- -->
+       <div class="mlogo">
+      <img src="/IMG/Logo.svg" alt="Logo" class="logo">
+       </div>
+      <div id="srodek">
+        <div class="element"></div>
+    <h2>Logowanie</h2>
+    <h3>Nie masz konta?</h3><a href="/Rejestracja.html">Zarejestruj się!</a><br><br>
+       <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <form id="loginForm">
+      <table class="tablica">
+        <tr>
+          <td><label for="username">Nazwa użytkownika:</label></td>
+            <td><input type="text" id="username" name="username" required></td>
+        </tr>  
+        <tr>
+          <td><label for="password">Hasło:</label></td>
+          <td><input type="password" id="password" name="password" required></td>
+        </tr>
+      </table>
+        <button id="loguj" type="submit">Zaloguj się</button>
+    </form>
+      </div>
+    <div id="message"></div>
+     <!-- ----------------------------------------------------------------------------------------------------------- -->
+<footer>
+  &copy; 76 Magazine<br>
+  Wszelkie prawa zastrzeżone
+</footer>
+    <script src="/JavaScript/loginjava.js"></script>
+     <script src="/JavaScript/Motyw.js">    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+     <link rel="stylesheet" href="CSS/dash.css">
+</head>
+<body>
+    <div class="topka">
+    
+    <h2>Dashboard</h2>
+    <a href="/index.html" alt="Rejestracja">Wyloguj
+    </a>
+    </div>
+
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox"/>
+          <div class="slider round"></div>
+        </label>
+      </div>
+    
+  <!-- ----------------------------------------------------------------------------------------------------------- -->
+  <hr>
+
+    <div class="assetek">
+
+    <h2>Lista assetów</h2>
+    <button  onclick="window.location.href='create.html'">Dodaj Asset</button>
+    <button id="generatePDF">Generuj PDF</button>
+    <br>
+    <div id="assetsContainer"></div>
+  </div>
+
+<script src="JavaScript/Motyw.js"></script>
+<script src="JavaScript/asset.js"></script>
+<div id="asset1" class="asset"></div>
+ <script src="JavaScript/pdf.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<hr>
+<footer>
+  &copy; 76 Magazine<br>
+  Wszelkie prawa zastrzeżone
+</footer>
+</body>
+</html>

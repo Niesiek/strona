@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generowanie PDF</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <h1>Testowy generarator pdf</h1>
+    <h2>Przykładowy plik</h2>
+    <div class="container">
+        <button id="generatePDF">Generuj PDF</button>
+    </div>
+    <script src="JavaScript/pdf.js"></script>
+    <!-- <script> 
+    
+    async function fetchAssets() {
+    try {
+        const response = await fetch('http://localhost:3000/assets');
+        const assets = await response.json();
+        renderAssets(assets);
+    } catch (error) {
+        console.error('Błąd podczas pobierania assetów:', error);
+    }
+}
+
+
+    
+        // Generowanie Kodu PDF 
+        function generatePDF(){
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            //Przypisanie Assetów do dokumentu PDF
+            doc.text(asset.name, asset.producent, asset.description);
+
+            //Zapytanie o nazwę pliku
+            const fileName = prompt("Podaj nazwe pliku (bez roszerzenia)");
+           
+            //Sprawdzenie czy została wpisana nazwa
+            if ($fileName) {
+                // Dodanie roszerzenia .pdf do pliku
+                doc.save(`${fileName}.pdf`);
+            } else {
+                alert ("Nie podano nazwy pliku.");
+            }
+        }
+    </script> -->
+
+</body>
+</html>

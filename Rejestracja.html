@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<style>
+</style>
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+       <!-- ----------------------------------------------------------------------------------------------------------- -->
+      <div class="mlogo">
+        <img src="/IMG/Logo.svg" alt="Logo" class="logo">
+      </div>
+       <!-- ----------------------------------------------------------------------------------------------------------- -->
+      <div id="srodek">
+    <h2>Stwórz konto</h2>
+     <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <form id="registerForm">
+      <table class="tablica">
+        <tr>
+          <td><label for="username">Nazwa użytkownika:</label></td>
+            <td><input type="text" id="username" name="username" required></td>
+        </tr>  
+        <tr>
+          <td><label for="password">Hasło:</label></td>
+          <td><input type="password" id="password" name="password" required></td>
+        </tr>
+      </table>
+        <button type="submit">Zarejestruj się</button>
+    </form>
+    <div id="message"></div>
+    </div>
+     <!-- ----------------------------------------------------------------------------------------------------------- -->
+    <footer>
+      &copy; 76 Magazine<br>
+      Wszelkie prawa zastrzeżone
+    </footer>
+
+    <script src="/Rejestracja/createac.js"></script>
+    <script src="/JavaScript/Motyw.js"></script>
+</body>
+</html>
